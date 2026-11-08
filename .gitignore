@@ -1,0 +1,73 @@
+# ---- Build output ----
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+*.app/
+
+# ---- CMake generated ----
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+CMakeUserPresets.json
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+
+# ---- Qt generated ----
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+*_autogen/
+.qmake.stash
+*.qm
+
+# ---- Qt Creator (user-specific) ----
+*.user
+*.user.*
+.qtcreator/
+*.autosave
+
+# ---- Other IDEs ----
+.vscode/
+.idea/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+.vs/
+
+# ---- Compiled objects / binaries ----
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.pdb
+*.ilk
+*.dSYM/
+
+# ---- Temporary / cache ----
+*.swp
+*.swo
+*~
+*.tmp
+*.log
+.cache/
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
